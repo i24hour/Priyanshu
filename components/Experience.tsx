@@ -30,10 +30,10 @@ const experiences = [
   },
   {
     id: 4,
-    title: 'Mentor Prep',
+    title: 'AI Product Intern',
     company: 'Mentor Prep',
     duration: '05/2024 – 06/2024',
-    description: 'Mentorship and preparation programs',
+    description: 'Design test automation Bot',
     current: false,
   },
 ];
