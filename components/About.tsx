@@ -93,7 +93,7 @@ export default function About() {
               </h3>
               <p className="text-gray-300 mb-4">
                 I'm Priyanshu, a final year student at IIT Roorkee with a passion for product 
-                design and management, and a one-side lover of automation. With 2 years of 
+                design and management, and a one-side lover of automation. With 1+ years of 
                 experience in product design, I've worked across startups and established companies, 
                 combining creativity with data-driven thinking to build products that matter.
               </p>
@@ -113,7 +113,7 @@ export default function About() {
                 whileHover={{ scale: 1.02 }}
                 className="glass-dark rounded-2xl p-6"
               >
-                <div className="text-4xl font-bold text-gradient mb-2">2+</div>
+                <div className="text-4xl font-bold text-gradient mb-2">1+</div>
                 <div className="text-gray-300">Years of Experience</div>
               </motion.div>
 
