@@ -8,9 +8,9 @@ const experiences = [
     id: 1,
     title: 'AI Product Design & Analytics Intern',
     company: 'Scaler',
-    duration: '07/2024 – Present',
+    duration: '10/2025 – 11/2025',
     description: 'Leading AI-driven product design initiatives and analytics',
-    current: true,
+    current: false,
   },
   {
     id: 2,
