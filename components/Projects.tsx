@@ -48,7 +48,7 @@ const projects = [
     tags: ['FinTech', 'AI/ML', 'Python', 'Data Science'],
     gradient: 'from-rose-500 to-orange-500',
     github: 'https://github.com/Priyanshu85953/iStock_subpart_1',
-    live: 'https://istock-analysis-dashboard.vercel.app/',
+    live: 'https://istocks-p.vercel.app/',
   },
 ];
 

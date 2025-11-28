@@ -29,7 +29,7 @@ export default function Hero() {
             transition={{ delay: 0.1, duration: 0.8 }}
           >
             <span className="inline-block px-4 py-2 glass rounded-full text-cyan-400 text-sm font-semibold mb-4">
-              2 Years of Experience
+              1+ Years of Experience
             </span>
           </motion.div>
 
