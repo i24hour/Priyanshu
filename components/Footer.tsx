@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-gradient-to-t from-blue-950/30 to-transparent"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           {/* Brand */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -46,33 +46,6 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </motion.div>
-
-          {/* Newsletter */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <h4 className="text-lg font-semibold mb-4 text-white">Stay Updated</h4>
-            <p className="text-gray-400 mb-4">
-              Subscribe to get the latest updates and news.
-            </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 px-4 py-2 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white placeholder-gray-400 text-sm"
-              />
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg text-white font-semibold"
-              >
-                Subscribe
-              </motion.button>
-            </div>
           </motion.div>
         </div>
 
