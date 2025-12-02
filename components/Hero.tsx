@@ -48,7 +48,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Product Designer & Manager | Final Year @ IIT Roorkee
+          Final Year @ IIT Roorkee
           </motion.h2>
 
           <motion.p
