@@ -6,10 +6,9 @@ import { Briefcase, Calendar } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    title: 'AI Product Design & Analytics Intern',
+    title: 'Program Intern',
     company: 'Scaler',
     duration: '10/2025 – 11/2025',
-    description: 'Leading AI-driven product design initiatives and analytics',
     current: false,
   },
   {
@@ -22,10 +21,9 @@ const experiences = [
   },
   {
     id: 3,
-    title: 'Program Intern',
+    title: 'Summer Intern',
     company: 'Mosaic Digital',
     duration: '07/2025 – 09/2025',
-    description: 'Contributing to digital program initiatives',
     current: false,
   },
   {
@@ -74,9 +72,8 @@ export default function Experience() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2, duration: 0.6 }}
-                className={`flex flex-col md:flex-row gap-8 items-center ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}
+                className={`flex flex-col md:flex-row gap-8 items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  }`}
               >
                 {/* Content Card */}
                 <div className="w-full md:w-5/12">
